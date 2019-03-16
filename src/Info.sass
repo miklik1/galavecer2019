@@ -1,0 +1,55 @@
+@import './vars.sass'
+
+.Info
+	background: #11082f
+	padding: 50px 200px
+	text-align: center
+	color: white
+	z-index: 2
+	@include sm
+		padding: 10px 50px
+		height: auto
+
+	h2
+		font-family: Etelka2
+		font-size: 43px
+		margin-top: 50px
+		margin-bottom: 50px
+		text-transform: uppercase
+		color: #cb204a
+		@include sm
+			font-size: 20px
+			margin: 0 auto
+
+	.popis
+		text-align: center
+		font-size: 20px
+		width: 80%
+		display: inline-block
+		@include sm
+			font-size: 14px
+			margin-bottom: 0px
+		p
+			display: inline-block
+			left: 0
+			right: 0
+			margin-left: auto
+			margin-right: auto
+
+	.tlacitko
+		margin-top: 30px
+		width: 250px
+		cursor: pointer
+		display: block
+		left: 0
+		right: 0
+		margin-left: auto
+		margin-right: auto
+
+		&:hover
+			cursor: pointer
+		@include sm
+			width: 100px
+			margin-bottom: 20px
+
+		

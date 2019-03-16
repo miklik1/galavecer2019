@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Etelka; /* deklarace fontu */
+    src: url("./fonts/Etelka-Narrow-Medium-Pro_16179.ttf"); /* propojení na umístění souboru */
+}
+
+@font-face {
+    font-family: Etelka2; /* deklarace fontu */
+    src: url("./fonts/Etelka-Narrow-Text-Pro_16183.ttf"); /* propojení na umístění souboru */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Etelka2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

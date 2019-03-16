@@ -1,0 +1,49 @@
+@import './vars.sass'
+
+.Partneri
+	height: 50vh
+	background: white
+	text-align: center
+	color: #cb204a
+
+	h2
+		font-family: Etelka2
+		font-size: 43px
+		margin-top: 60px
+		margin-bottom: 40px
+		text-transform: uppercase
+		color: #991c4f
+		@include sm
+			font-size: 30px
+
+	.grid
+		width: 100%
+		display: grid
+		grid-gap: 30px
+		grid-template-columns: repeat(auto-fill, minmax(80px, 300px))
+		justify-items: center
+		justify-content: center
+		margin-bottom: 50px
+
+		img
+			max-width: 300px
+
+	.grid2
+		width: 100%
+		display: inline-block
+
+		@include sm
+			img
+				width: 300px
+	
+	.utb
+		width: 500px
+		margin: 0px 10px
+
+	.su
+		width: 500px
+		margin: 0px 10px
+
+
+
+

@@ -1,0 +1,175 @@
+@import './vars.sass'
+
+.Home
+  height: 100vh
+  background: #2d1356
+  overflow: hidden
+  position:relative
+
+  nav
+    position: absolute
+    z-index: 6
+    left: 55%
+    top: 30px
+
+    @include xl
+      top: 100px
+      left: 51%
+
+    @include lgg
+      top: 50px
+      left: 44%
+    @include md
+      top: 25px
+      left: 30%
+    @include sd
+      display: none
+
+
+    ul
+      list-style-type: none
+      margin: 0
+      padding: 0
+
+      li
+        display: inline-block
+
+        a
+          color: white
+          font-size: 24px
+          text-transform: uppercase
+          margin-right: 40px
+          margin-top: 20px
+          text-decoration: none
+          &:hover
+            cursor: pointer
+
+  .golden
+      color: #ffdf6c !important
+
+  img
+    margin: 0
+    position: absolute
+
+  .zaclona
+    height: 100vh
+    position: fixed
+    z-index: 5
+    @include sm
+      height: 80vh
+
+  .zaclonaPrava
+    right: 0
+
+  .zaclonaLeva
+    left: 0
+
+  .newyork
+    bottom: 0
+    z-index: 1
+    width: 100%
+
+  .man
+    z-index: 2
+    width: 400px
+    bottom: 0
+    left: 12%
+
+    @include lgg
+      width: 350px
+    @include md
+      width: 300px
+      left: 8%
+    @include sd
+      left: 0
+      right: 0
+      margin-left: auto
+      margin-right: auto
+      width: 150px
+      @include sm
+        width: 150px
+
+  .moon
+    left: 4%
+    width: 50%
+
+    @include xl
+      width: 58%
+
+    @include lgg
+      width: 65%
+      left: 1%
+
+    @include md
+      width: 76%
+      left: -6%
+
+    @include sd
+      width: 50%
+      top: -5%
+    @include sm
+
+  .text
+    top:  200px
+    left: 54%
+    z-index: 2
+
+    @include xl
+      top:  200px
+      left: 50%
+    @include lgg
+      top: 200px
+      left: 46%
+    @include md
+      top: 200px
+      left: 41%
+    @include sd
+      left: 0
+      right: 0
+      margin-left: auto
+      margin-right: auto
+      top: 100px
+
+    @include sm
+      width: 350px
+      top: 250px
+
+    @include xsm
+      width: 200px
+      top: 200px
+
+  .napis
+    width: 50rem
+    bottom: 200px
+    left: 45%
+    z-index: 2
+
+    @include xl
+      width: 40rem
+      bottom: 150px
+    @include lgg
+      left: 40%
+    @include md
+      width: 38rem
+      left: 35%
+    @include sd
+      width: 30rem
+      top: 175px
+      left: 0
+      right: 0
+      margin-left: auto
+      margin-right: auto
+
+    @include sm
+      @include sm
+        width: 20rem
+        top: 120px
+    @include xsm
+      width: 13rem
+      top: 100px
+
+
+
+
+
+
