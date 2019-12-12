@@ -2,7 +2,7 @@
   "name": "gala",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.galavecer.utb.cz/2019/",
+  "homepage": "./",
   "dependencies": {
     "node-sass": "^4.11.0",
     "react": "^16.8.4",
